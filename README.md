@@ -1,24 +1,5 @@
-# README
+# Rails 5.1, Webpacker, and ReactJS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tutorial followed: https://x-team.com/blog/get-in-full-stack-shape-with-rails-5-1-webpacker-and-reactjs/
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Start both Rails server and Webpack dev server locally with `foreman start -f Procfile.dev -p 3000` (`foreman` required).
