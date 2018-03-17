@@ -27,10 +27,10 @@ class QuotesDisplay extends React.Component {
     if(this.qsParams.quote) {
       this.quoteId = Number(this.qsParams.quote)
       if(isNaN(this.quoteId)) {
-        this.quoteId = 1
+        this.quoteId = this.props.startingQuoteId
       }
     } else {
-      this.quoteId = 1
+      this.quoteId = this.props.startingQuoteId
       // update URL in browser to reflect current quote in query string
       this.props.history.push(`/?quote=${this.quoteId}`)
     }
